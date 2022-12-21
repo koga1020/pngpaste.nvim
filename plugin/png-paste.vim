@@ -1,1 +1,1 @@
-command! -nargs=0 PngPaste lua require("png-paste").paste()
+command! -nargs=0 PngPaste lua require("pngpaste").paste()

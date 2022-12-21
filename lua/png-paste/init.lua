@@ -1,4 +1,4 @@
-local util = require("png-paste.util")
+local util = require("pngpaste.util")
 
 local M = {}
 
