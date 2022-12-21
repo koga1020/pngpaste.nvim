@@ -13,6 +13,8 @@ plugin for [`pngpaste`](https://github.com/jcsalterego/pngpaste)
 
 ## Installation
 
+Using [packer.nvim](https://github.com/wbthomason/packer.nvim)
+
 ```lua
 use({
   "koga1020/pngpaste.nvim",
