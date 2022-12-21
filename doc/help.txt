@@ -1,0 +1,29 @@
+*pngpaste.nvim* plugin for pngpaste
+
+================================================================================
+CONTENTS                                *pngpaste*
+
+1. feature                              |pngpaste-feature|
+2. Installation                         |pngpaste-installation|
+================================================================================
+
+1. FEATURE                         *pngpaste-feature*
+
+    - Provide `:PngPaste` command
+    - Generate filename with `uuidgen`
+    - Exec `pngpaste`, save png file to `image_path`
+    - Set vim line with markdown image syntax
+
+2. INSTALLATION                *pngpaste-installation*
+
+>
+    use({
+      "koga1020/pngpaste.nvim",
+      config = function()
+        require("pngpaste").setup()
+      end,
+    })
+<
+
+vim: ft=help tw=78 et ts=2 sw=2 sts=2 norl
+
