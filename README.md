@@ -24,3 +24,8 @@ use({
 })
 ```
 
+## Required dependencies
+
+- uuidgen
+- [pngpaste](https://github.com/jcsalterego/pngpaste)
+
